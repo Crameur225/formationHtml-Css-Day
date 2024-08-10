@@ -86,4 +86,29 @@ body{
     cursor: pointer;
     color: #a9b0b5e9;
 }
-
+/* RESPONSIVE */
+@media  (max-width: 1080px) {
+    .container-first{
+        display: flex;
+        width: 20em;
+        margin-top: 1em;
+    }
+    .container-text{
+        font-size: smaller;
+        font-weight: 600;
+    }
+    .container-date{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container-img {
+        padding-left: -2em;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+}
